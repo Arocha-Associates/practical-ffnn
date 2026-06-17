@@ -9,7 +9,7 @@ data/**/*.parquet
 
 # admin & engagement files
 admin/
-engagmenent/
+engagement/
 
 # notebook checkpoints
 .ipynb_checkpoints/
