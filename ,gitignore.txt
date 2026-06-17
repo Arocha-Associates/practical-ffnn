@@ -7,8 +7,15 @@ outputs_figures/
 data/**/*.csv
 data/**/*.parquet
 
+# admin & engagement files
+admin/
+engagmenent/
+
 # notebook checkpoints
 .ipynb_checkpoints/
+
+# pptx
+slides/*.pptx
 
 # python cache / env
 __pycache__/
