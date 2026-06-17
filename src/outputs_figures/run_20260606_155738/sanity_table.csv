@@ -1,0 +1,2 @@
+exposure_rows,claims_rows,date_min,date_max,monthly_onset_rate,mean_claim_cost_chf,p90_claim_cost_chf,test_start,n_test_months
+144000,1565,2022-01-01,2023-12-01,0.010868055555555556,101624.86134185303,160395.6000000001,2023-07-01,6

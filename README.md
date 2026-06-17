@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # GLMs vs Neural Networks in Practice — IDI Pricing
+=======
+# GLMs vs Neural Networks in Practice — IDI Pricing (Synthetic Data)
+>>>>>>> 9628191 (Commiting updated files)
 
 This repository supports a practical actuarial case study: pricing an Individual Disability Income (IDI) policy using a frequency–severity structure and comparing **GLMs** (logit + Tweedie) to **FFNNs** (embeddings + governance controls), and hybrid approaches.
 
@@ -106,6 +110,7 @@ Tip: For persistence in Colab, set output folders to Google Drive paths (e.g., `
 
 ---
 
+<<<<<<< HEAD
 ## Google Colab + Drive (recommended setup)
 
 In each notebook, use the provided block:
@@ -129,6 +134,8 @@ CLAIMS_CSV   = f"{DRIVE_ROOT}/02_Data/raw/idi_claims_synth_v1.csv"
 
 ---
 
+=======
+>>>>>>> 9628191 (Commiting updated files)
 ## Governance checklist (minimum viable)
 
 Before sharing results internally:
@@ -151,4 +158,7 @@ If you are iterating:
 - Run **02 → 03 → 04**, append export cells, then run **05**.
 
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9628191 (Commiting updated files)

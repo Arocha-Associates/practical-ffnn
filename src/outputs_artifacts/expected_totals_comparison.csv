@@ -1,0 +1,6 @@
+Model,Expected Total (CHF)
+Actual,"40,755,967"
+GLM,"47,182,238"
+FFNN,"42,549,081"
+Hybrid A (FFNN incidence × GLM severity),"43,208,189"
+Hybrid B (GLM incidence × FFNN severity),"46,103,497"
