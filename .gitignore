@@ -1,0 +1,28 @@
+# outputs / runs
+outputs/
+outputs_artifacts/
+outputs_figures/
+
+# data files (keep README, but avoid pushing datasets by accident)
+data/**/*.csv
+data/**/*.parquet
+
+# admin & engagement files
+admin/
+engagement/
+
+# notebook checkpoints
+.ipynb_checkpoints/
+
+# pptx
+slides/*.pptx
+
+# python cache / env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store

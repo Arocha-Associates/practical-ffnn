@@ -1,8 +1,0 @@
-Allowed (we do),Not allowed (we avoid),Why (governance rationale)
-Hybrid framework (GLM baseline + FFNN challenger),Winner-takes-all replacement without challenger period,Preserves a stable benchmark; enables controlled promotion/rollback.
-Time split + rolling-window evaluation,Single random split as primary evidence,Reduces overfitting and improves stability evidence under drift.
-"Rare-event metrics (PR-AUC, Lift@10) + calibration checks",AUC-only conclusions,Pricing needs calibrated probabilities; ranking alone is insufficient.
-FFNN embeddings only for justified high-cardinality fields,Unbounded architecture growth / excessive depth,Controls complexity; improves reproducibility and reviewability.
-Severity trained on log1p(cost) with smearing + level calibration,Back-transform without bias correction (median-like predictions),Avoids systematic underprediction on the CHF scale.
-Segment adequacy (O/E by region×season) with credibility filters,Portfolio-only adequacy sign-off,Prevents hidden pockets of mispricing.
-"Versioning + run metadata (seed, cutoff, library versions)",Results without reproducibility artifacts,Enables audit trail and repeatable validation.
